@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css2?family=Gabarito:wght@500;800&family=Mukta:wght@300;500&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gabarito", sans-serif;
+  font-family: "Mukta", sans-serif;
+}
+
+nav {
+  background-color: red;
+  color: white;
+  padding: 20px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  color: black;
+}
+
+main h1, main p {
+  margin: 15px;
+  text-align: center;
+  color: red;
+  border: 2px solid red;
+  border-radius: 50px;
+}
+main p {
+  border: 3px solid red;
+  color: black;
+}
+
+footer p {
+  text-align: center;
+  color: red;
+  background-color: rgb(241, 241, 241);
+}

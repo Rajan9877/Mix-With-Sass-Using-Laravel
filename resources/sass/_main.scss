@@ -1,0 +1,17 @@
+@mixin brd-radius($val){
+    border-radius: $val;
+}
+main{
+    h1{
+        margin: 15px;
+        text-align: center;
+        color: $original-color;
+        border: 2px solid red;
+        @include brd-radius(50px)
+    }
+    p{
+        @extend h1;
+        border: 3px solid red;
+        color: black
+    }
+}
